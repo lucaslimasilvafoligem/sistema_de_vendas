@@ -1,0 +1,17 @@
+1 - map() converte um array para outro tipo de array. Exemplo alua_1, neste exemplo ele converte uma lista de objetos com nome e idade para uma lista apenas de idades.
+
+2 - forEach() é uma maneira de inteirar na lista ou em seus objetos, é mais simples. Checar na aula_2
+
+3 - filter() filtra objetos com base em condições boleanas. Checar na aula_3
+
+4 - find() também filtra, mas só traz a primeira ocorrência. Checar aula_4
+
+5 - reduce() ele converte para um objeto especifico, só um. CHecar aula_5
+
+6 - keys() tranforma em chaves. Checar aula_6
+
+7 - sort() ordena uma lista, ,checar aula_7
+
+8 - some() every() testar condições no array some é como um e every como and, checar aula_8
+
+9 - flatMap() Trasnforma objetos em uma unica lista ao invés de lista de listas

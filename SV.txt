@@ -1,0 +1,4 @@
+--> Tecnologias
+* ReactJs para o frontend (web e mobile)
+* NestJs para o backend
+* Postgre para persistência

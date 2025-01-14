@@ -1,0 +1,57 @@
+nest new <nome_projeto> | cria um diretório com as dependências necessárias do nest
+
+npm run start | roda o projeto
+
+providers | para services
+
+controllers | para o controlador
+
+imports
+
+exports
+
+nest g module user | criar um módulo
+
+nest g controller user | criar um controller
+
+nest g service user | cria um service
+
+npm run star
+
+npm run star:dev | atualizar a cada modificação
+
+npm i bcryp | para criptografar
+
+npm i -D @types/bcrypt | ajustes de criptografia
+ 
+npm install --save typeorm pg @nestjs/typeorm | configurar .env - olhar a documentação do nest para isso
+
+npm install @nestjs/cache-manager cache-manager | para usar o cache precisamos dessa dependência, para apoiar o uso é necessário o uso do CacheModule.register() no modulo da entidade desejada
+
+npm i --save class-validator class-transformer | para criar validações do DTO
+
+npx typeorm migration:create ./src/migration/create_table_user | para proteger as entidades criamos as tabelas manualmente
+
+npm install cache-manager
+
+npm install @nestjs/cache-manager cache-manager
+
+npm install cache-manager@^5 @nestjs/cache-manager
+
+npm install @nestjs/cache-manager cache-manager
+
+npm i --save class-validator class-transformer
+
+npm install --save @nestjs/passport passport passport-local
+npm install --save-dev @types/passport-local
+
+npm istall --save-dev @types/passport-jwt
+
+npm install --save-dev @types/passport-jwt
+
+npm install --save @nestjs/jwt
+
+
+
+docker start another-postgres
+
