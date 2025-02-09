@@ -2,9 +2,9 @@ import { Body, Controller, Get, HttpCode, Param, Post, UsePipes, ValidationPipe 
 import { AddressEntity } from './entities/address.entity';
 import { AddressService } from './address.service';
 import { CreateAddressDto } from './dtos/createAddress.dto';
-import { Roles } from 'src/decorators/roles.decorator';
-import { UserType } from 'src/user/enum/user-type.enum';
-import { UserId } from 'src/decorators/user-id.decorator';
+import { Roles } from '../decorators/roles.decorator';
+import { UserType } from '../user/enum/user-type.enum';
+import { UserId } from '../decorators/user-id.decorator';
 
 @Controller('address')
 export class AddressController {

@@ -18,7 +18,7 @@ nest g service user | cria um service
 
 npm run star
 
-npm run star:dev | atualizar a cada modificação
+npm run start:dev | atualizar a cada modificação
 
 npm i bcryp | para criptografar
 
@@ -51,6 +51,8 @@ npm install --save-dev @types/passport-jwt
 
 npm install --save @nestjs/jwt
 
+
+docker run --name another-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
 
 
 docker start another-postgres
