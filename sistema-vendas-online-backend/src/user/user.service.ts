@@ -35,7 +35,9 @@ export class UserService {
 
   async findAll(): Promise<ReturnUserDto[]> {
     const users = await this.userRepository.find();
-    return users.map((user) => new ReturnUserDto(user));
+    return users.map((user) => {
+      return new ReturnUserDto(user);
+    });
   }
 
   async findByUserId(userId: number): Promise<ReturnUserDto> {

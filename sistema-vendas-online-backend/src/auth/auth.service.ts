@@ -36,7 +36,7 @@ export class AuthService {
   }
 
   async checkIfExistsEmail(email: string) {
-    const exists = this.userService.existsByEmail(email);
+    const exists = await this.userService.existsByEmail(email);
     if (!exists) {
       throw new BadRequestException('email ou senha inválidos');
     }

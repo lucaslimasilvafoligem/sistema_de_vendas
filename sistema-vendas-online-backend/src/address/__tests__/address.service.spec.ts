@@ -59,10 +59,7 @@ describe('AddressService', () => {
   it('should return address after save', async () => {
     jest.spyOn(addressRepository, 'save').mockResolvedValueOnce(addressMock);
 
-    const address = await service.create(
-      createAddressMock,
-      userEntityMock.id,
-    );
+    const address = await service.create(createAddressMock, userEntityMock.id);
 
     expect(address).toEqual(addressMock);
   });
