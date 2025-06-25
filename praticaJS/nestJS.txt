@@ -52,8 +52,18 @@ npm install --save-dev @types/passport-jwt
 npm install --save @nestjs/jwt
 
 
-docker run --name another-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5433:5432 -d postgres
+docker run --name another-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5435:5432 -d postgres
 
 
 docker start another-postgres
 
+{
+	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZVVzZXIiOjEsImlhdCI6MTc0NTQ3MTIyMywiZXhwIjoxNzQ2MDc2MDIzfQ.rClcikZ9_4v3djYh_q7crR_SQOfqR_-dwnd9_4ClSII",
+	"user": {
+		"id": 1,
+		"name": "Lucas Almeida",
+		"email": "lucas.almeida@example.com",
+		"phone": "83 98765-4321",
+		"cpf": "123.456.789-00"
+	}
+}
